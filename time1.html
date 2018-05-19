@@ -14,11 +14,11 @@
   <input type="text" name="_gotcha" style="display:none" />
    <label for="subject"><p>Message</p></label><b>
     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-	 <label for="country"><p>Country</p></label><b>
+	 <label for="country"><p>Time</p></label><b>
     <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
+      <option value="australia">Breakfast</option>
+      <option value="canada">lunch</option>
+      <option value="usa">Dinner</option>
     </select>
 	<label for="person"><p>no of person</p></label><b>
     <select id="person" name="person">
@@ -29,7 +29,8 @@
 							<option value="5">5 Persons</option>  
 							<option value="More than 5">More than 5</option> 
     </select>
-	
+	<input id="datepicker" name="Text" type="text" placeholder="Date" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}"
+					    required="" />
   <input type="submit" value="Send">
 	<input type="hidden" name="_next" value="thanks.html" />
 </form> 
