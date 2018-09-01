@@ -1,0 +1,18 @@
+
+
+
+{
+	"heroes": [{
+		"name": "Spiderman",
+		"imageurl": "https:\/\/simplifiedcoding.net\/demos\/view-flipper\/images\/spiderman.jpg"
+	}, {
+		"name": "Iron Man",
+		"imageurl": "https:\/\/simplifiedcoding.net\/demos\/view-flipper\/images\/ironman.jpg"
+	}, {
+		"name": "Thor",
+		"imageurl": "https:\/\/simplifiedcoding.net\/demos\/view-flipper\/images\/thor.jpg"
+	}, {
+		"name": "Wolverine",
+		"imageurl": "https:\/\/simplifiedcoding.net\/demos\/view-flipper\/images\/wolverine.jpeg"
+	}]
+}
