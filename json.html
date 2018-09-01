@@ -3,11 +3,42 @@
 <head>
 <script type="text/javascript" src="ha.json"></script>
 <script>
-$.getJSON('ha.json', function(data) {
-    //do stuff with your data here
+
+    $(function() {
+
+
+   var people = [];
+
+   $.getJSON('ha.json', function(data) {
+       $.each(data.heroes, function(i, f) {
+          var tblRow = "<tr>" + "<td>" + f.name + "</td>" +
+           "<td>" + f.imageurl + "</td>" +"</tr>"
+           $(tblRow).appendTo("#userdata tbody");
+     });
+
+   });
+
 });
 </script>
 </head>
+
 <body>
+
+<div class="wrapper">
+<div class="profile">
+   <table id= "userdata" border="2">
+  <thead>
+            <th>name</th>
+            <th>imageurl</th>
+            
+        </thead>
+      <tbody>
+
+       </tbody>
+   </table>
+
+</div>
+</div>
+
 </body>
 </html>
