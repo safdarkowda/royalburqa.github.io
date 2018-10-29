@@ -1,6 +1,6 @@
 
 
-
+[
 {
 	"heroes": [{
 		"name": "Android",
@@ -20,4 +20,16 @@
 		"game": "charram",
 		"imageurl": "https:\/\/www.tutorialspoint.com\/ios\/ios_tutorial.pdf"
 	}]
-}
+},
+    {
+        "shapeArray":[
+            {
+                "shapeName":"circle"
+            },
+            {
+                "shapeName":"square"
+            }
+            
+        ]
+    }
+]
