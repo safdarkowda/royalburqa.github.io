@@ -1,9 +1,7 @@
 <?php
 
-echo "testing";
-exit; 
-$email = $_POST['email'];
-$name = $_POST['name'];
-print_r(json_encode($_POST));
+$name = trim($_POST['name']);
+	$email = trim($_POST['email']);
+	echo "Hello $name! Welcome to android Tech Point.\nYour email is $email";
  
 ?>
