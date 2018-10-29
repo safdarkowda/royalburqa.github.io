@@ -4,15 +4,20 @@
 {
 	"heroes": [{
 		"name": "Android",
+		"game": "kho-kho",
 		"imageurl": "https:\/\/www.tutorialspoint.com\/android\/android_tutorial.pdf"
+		
 	}, {
 		"name": "Core Java",
+		"game": "chess",
 		"imageurl": "https:\/\/www.tutorialspoint.com\/java\/java_tutorial.pdf"
 	}, {
 		"name": "Advance java",
+		"game": "football",
 		"imageurl": "https:\/\/www.tutorialspoint.com\/java\/java_tutorial.pdf"
 	}, {
 		"name": "IOS",
+		"game": "charram",
 		"imageurl": "https:\/\/www.tutorialspoint.com\/ios\/ios_tutorial.pdf"
 	}]
 }
