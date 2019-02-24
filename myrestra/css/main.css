@@ -2,6 +2,8 @@
 
 /* #c9c1ac =white*/
 /* #d3325f =red*/
+/* #= yellow*/
+
 .info{
 	background:#c9c1ac;
 }
@@ -10,12 +12,21 @@
 body{
 font-family: 'Oregano', cursive;
 color:#c9c1ac;
-background:url(../img/zikr.jpeg)center/cover fixed no-repeat;
+background-color:#9ACD32;
+ /*background:url(../img/zikr.jpeg)center/cover fixed no-repeat;*/
 
 }
 
 .primary-color{
 	color:#d3325f;
+}
+
+.secondary-color{
+	color:#000000;
+}
+
+.blue-color{
+      color:#00008B;
 }
 
 .info h2
