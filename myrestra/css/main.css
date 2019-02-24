@@ -44,7 +44,7 @@ background-color:#9ACD32;
 #header
 {
 	min-height:calc(100vh-94px);
-	background:url(../img/chic.jpg);
+	/*background:url(../img/chic.jpg);*/
 	background-position:center;
 	background-size:cover;
 	background-attachment:fixed;
